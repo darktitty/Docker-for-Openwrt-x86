@@ -1,3 +1,6 @@
+#!/bin/bash
+export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
 cd /mnt/sdb1
 wget https://download.docker.com/linux/static/stable/x86_64/docker-18.09.7.tgz
 tar -xzvf docker-18.09.7.tgz
