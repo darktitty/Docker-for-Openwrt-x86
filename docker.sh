@@ -4,8 +4,7 @@ tar -xzvf docker-18.09.7.tgz
 cd docker
 mkdir bin
 mv * bin
-mkdir data
-mkdir config
+mkdir data config
 cd config
 wget https://github.com/darktitty/Docker-for-Openwrt-x86/blob/master/daemon.json
 ln -s /mnt/sdb1/docker/bin/* /usr/sbin
